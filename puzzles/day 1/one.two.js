@@ -2,7 +2,6 @@ const fs = require("fs");
 var elfCallorydb = []
 
 fs.readFile('./input.txt', 'utf8',(err,data)=>{
-    if(err)return console.log(err);
     const arrayOfInput = data.split("\n")
     let totalPerElf = 0;
     arrayOfInput.forEach(calloryItem => {
