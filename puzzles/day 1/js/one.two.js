@@ -1,8 +1,7 @@
 const fs = require("fs");
 var elfCallorydb = []
 
-fs.readFile('./input.txt', 'utf8',(err,data)=>{
-    if(err)return console.log(err);
+fs.readFile('../input.txt', 'utf8',(err,data)=>{
     const arrayOfInput = data.split("\n")
     let totalPerElf = 0;
     arrayOfInput.forEach(calloryItem => {
@@ -13,6 +12,7 @@ fs.readFile('./input.txt', 'utf8',(err,data)=>{
     totalPerElf=0;
     }
     });
-    let max = elfCallorydb.sort((a,b)=>a < b ? 1 : -1)[0]
-    console.log(max)
+    let elfCallsInDescendingOrder = elfCallorydb.sort((a,b)=>a < b ? 1 : -1)
+    let top3 = elfCallsInDescendingOrder.shift() + elfCallsInDescendingOrder.shift() + elfCallsInDescendingOrder.shift()
+    console.log(top3)
 })
