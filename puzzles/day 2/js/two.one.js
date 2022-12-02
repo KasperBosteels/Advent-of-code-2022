@@ -3,7 +3,6 @@ let score =0;
 fs.readFile('../input.txt', 'utf8',(err,data)=>{
     const arrayOfInput = data.split("\n");
     arrayOfInput.forEach(input => {
-    //console.log(input)
     score += gamelogic(input)
     });
     console.log(score);
