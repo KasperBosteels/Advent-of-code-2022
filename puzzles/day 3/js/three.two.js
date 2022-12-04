@@ -3,7 +3,6 @@ const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var totalValue = 0
 fs.readFile('../input.txt', 'utf8',(err,data)=>{
     const arrayOfInput = data.split("\n");
-    console.log(arrayOfInput.length)
     const alphabetValueDict = createDictionary(alphabet)
     for (let i = 0; i < arrayOfInput.length; i++) {
         if(i % 3 == 0){
