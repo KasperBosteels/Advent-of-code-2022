@@ -1,0 +1,23 @@
+$ cd /
+$ ls
+1000 bch.lht
+2000 ccqfdznj.sqg
+3000 qnbzgp
+4000 rpphgdhp.jfr
+5000 tvpzh
+dir csmqbhjv
+dir czdqfr
+dir fpfwfzrt
+$ cd csmqbhjv
+$ ls
+6000 jes
+$ cd ..
+$ cd czdqfr
+$ ls
+7000 jesn
+400000 nosj
+$ cd ..
+$ cd fpfwfzrt
+$ ls
+110000 mega
+20000 tiny
