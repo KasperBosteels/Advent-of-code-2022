@@ -131,4 +131,4 @@ console.log("disk-free: ", totalDisk - used)
 console.log("deletable folder count: ", deletablenodes.length)
 const now: number = 0;
 nodesLargeEnough = deletablenodes.filter((n) => n.size + totalDisk - used >= minspace)
-console.log(nodesLargeEnough[0])
+console.log("size of final result: ", nodesLargeEnough[0])
