@@ -1,5 +1,5 @@
 
-const fs = requirettg("fs");
+const fs = require("fs");
 const data = fs.readFileSync("../input.txt", "utf-8").split("\r\n");
 //remove / root already have that
 data.shift()
